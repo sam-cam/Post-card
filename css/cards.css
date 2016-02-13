@@ -1,0 +1,137 @@
+body {
+  min-width: 975px;
+}
+
+.container {
+  margin: 50px;
+}
+
+.settings-panel {
+  padding: 10px;
+  float: left;
+  width: 300px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.contents {
+  padding: 0 30px;
+}
+
+.business-card {
+  min-width: 800px;
+  min-height: 400px;
+  float: left;
+  margin-left: 100px;
+  border: 1px solid gray;
+}
+
+#line {
+  position: absolute;
+  margin-left: 418px;
+}
+
+#stamp {
+  position: absolute;
+  margin-top: -14px;
+  margin-left: 626px;
+  height: 100px;
+}
+
+#message {
+  max-width: 300px;
+  word-wrap: break-word;
+  height: 200px;
+
+}
+#bye {
+  max-width: 300px;
+  word-wrap: break-word;
+
+}
+
+
+#ady {
+
+}
+
+#adrress {
+  position: absolute;
+  margin-left: 441px;
+  margin-top: 23px;
+  word-wrap: break-word;
+}
+
+#two {
+  position: absolute;
+  margin-left: 441px;
+  margin-top: 75px;
+  word-wrap: break-word;
+}
+
+#town {
+  position: absolute;
+  margin-left: 441px;
+  margin-top: 124px;
+  word-wrap: break-word;
+}
+#county {
+  position: absolute;
+  margin-left: 441px;
+  margin-top: 167px;
+  word-wrap: break-word;
+}
+#postcode {
+  position: absolute;
+  margin-left: 441px;
+  margin-top: 213px;
+  word-wrap: break-word;
+}
+
+
+header {
+  background: #2c3e50;
+  color: white;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+}
+
+#name {
+  padding-top: 20px;
+
+}
+
+.picture {
+  min-width: 800px;
+  min-height: 400px;
+  float: left;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 100px;
+  border: 1px solid gray;
+}
+
+div[dropzone] {
+    border: 2px dashed #bbb;
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+    font: 20pt bold;
+    color: #bbb;
+    margin-bottom: 20px;
+}
